@@ -1,3 +1,4 @@
+import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
@@ -6,7 +7,7 @@ import java.io.IOException;
 
 import static javafx.application.Application.launch;
 
-public class AppInitialize {
+public class AppInitialize extends Application {
     public static void main(String[] args) {
         launch(args);
     }

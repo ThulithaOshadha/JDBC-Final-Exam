@@ -1,0 +1,6 @@
+DROP DATABASE IF EXISTS ijse;
+CREATE DATABASE IF NOT EXISTS ijse;
+CREATE TABLE IF NOT EXISTS student(
+   student_id VARCHAR(6),
+   
+); 
